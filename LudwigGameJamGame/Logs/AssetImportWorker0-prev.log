@@ -15,11 +15,11 @@ C:/Users/tom/OneDrive/Documents/GitHub/Ludwig-Gam-Jam/LudwigGameJamGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61865
+59252
 Successfully changed project path to: C:/Users/tom/OneDrive/Documents/GitHub/Ludwig-Gam-Jam/LudwigGameJamGame
 C:/Users/tom/OneDrive/Documents/GitHub/Ludwig-Gam-Jam/LudwigGameJamGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 148.37 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 449.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
@@ -35,44 +35,532 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.539326 seconds.
+Registered in 0.005897 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 298.66 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 392.96 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.834 seconds
+- Completed reload, in  2.095 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7835ms)
-		BeginReloadAssembly (5828ms)
+	ReloadAssembly (2096ms)
+		BeginReloadAssembly (240ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1326ms)
-			LoadAssemblies (5847ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1689ms)
+			LoadAssemblies (237ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (377ms)
+			SetupTypeCache (389ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (536ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (962ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (299ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (393ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.098960 seconds.
+Registered in 0.008402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014DF7969820 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014DF36F1010 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014DF737AC20 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 177.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4146ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (3687ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (976ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (162ms)
+			SetupLoadedEditorAssemblies (2080ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (178ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (890ms)
+				ProcessInitializeOnLoadMethodAttributes (786ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (38ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.52 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4235 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.9 MB.
+System memory in use after: 200.2 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4689.
+Total: 88.067800 ms (FindLiveObjects: 5.856500 ms CreateObjectMapping: 0.582000 ms MarkObjects: 81.535600 ms  DeleteObjects: 0.091800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Materials/walking.anim
+  artifactKey: Guid(2a2c2a7008b44dc429f8f679db934b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(2a2c2a7008b44dc429f8f679db934b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000182 seconds  code(3) message(Unknown asset with GUID '2a2c2a7008b44dc429f8f679db934b64')
+  ERROR: Unknown asset with GUID '2a2c2a7008b44dc429f8f679db934b64'
+  Import took 0.276628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001532 seconds.
+  path: Assets/Materials/New Material 2.mat
+  artifactKey: Guid(7aff020e345d2b942a0d07f49ba473ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 2.mat using Guid(7aff020e345d2b942a0d07f49ba473ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf9d7fefa090276b1b56e153befa2c6') in 1.631991 seconds 
+  Import took 1.652060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Materials/New Material.mat
+  artifactKey: Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material.mat using Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ee4f805dc47a5095469e61cbd1152d') in 0.068543 seconds 
+  Import took 0.080576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.440441 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(d888c2b84ae86b34b8e630a0001f7768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Material 3.mat using Guid(d888c2b84ae86b34b8e630a0001f7768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5918e76dac40b339fcc09889c9246618') in 0.127623 seconds 
+  Import took 0.147581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.705730 seconds.
+  path: Assets/Materials/cootstexture.mat
+  artifactKey: Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/cootstexture.mat using Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34edb7e4826756b49a933a4cd1421197') in 0.137018 seconds 
+  Import took 0.159423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 251.007701 seconds.
+  path: Assets/cootmodelfinal.obj
+  artifactKey: Guid(14c71ddefedae2548a3ac534a58a36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cootmodelfinal.obj using Guid(14c71ddefedae2548a3ac534a58a36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839a5d5f8cfead3111bd24fdc0b2ceb2') in 0.208224 seconds 
+  Import took 0.224298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 370.031155 seconds.
+  path: Assets/coot2modelfinal.obj
+  artifactKey: Guid(f2c6f06a9d9f8bc43997177766f9ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/coot2modelfinal.obj using Guid(f2c6f06a9d9f8bc43997177766f9ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc982ee4c31dcbd78038ccb7e3c45a7') in 0.024633 seconds 
+  Import took 0.055121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.144775 seconds.
+  path: Assets/thingcootcatthingngng.fbx
+  artifactKey: Guid(3d5a8f602ac86404ca51931cf98032ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/thingcootcatthingngng.fbx using Guid(3d5a8f602ac86404ca51931cf98032ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cb7bf2c961904ed229ad77497e6fd6') in 0.463492 seconds 
+  Import took 0.492596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.326955 seconds.
+  path: Assets/walk.anim
+  artifactKey: Guid(d3f13d4bbc13ead44943f1cee9d79b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walk.anim using Guid(d3f13d4bbc13ead44943f1cee9d79b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65e5cb70545e0bb4c6b05326dc5d7b6') in 0.029475 seconds 
+  Import took 0.038152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.987225 seconds.
+  path: Assets/ArmatureAction.anim
+  artifactKey: Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArmatureAction.anim using Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc50fdf6a2e77fc67943c6729ca5775') in 0.033539 seconds 
+  Import took 0.052990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.762163 seconds.
+  path: Assets/walk.anim
+  artifactKey: Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walk.anim using Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f230206e58ef343f762004eb5e9e2b') in 0.018555 seconds 
+  Import took 0.029676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.530956 seconds.
+  path: Assets/thingcootcatthingngng.controller
+  artifactKey: Guid(9c9acdddc58af9c4fad45efcd5baf8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/thingcootcatthingngng.controller using Guid(9c9acdddc58af9c4fad45efcd5baf8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25587ba10d30f19359d6a84319d2a767') in 0.014061 seconds 
+  Import took 0.027028 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009830 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014C254AAA40 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014C24A85B80 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014DFCCD5010 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.160 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5162ms)
+		BeginReloadAssembly (408ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (74ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (4606ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (3092ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (785ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (600ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3963 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.0 MB.
+System memory in use after: 215.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4862.
+Total: 5.144600 ms (FindLiveObjects: 0.438300 ms CreateObjectMapping: 0.409300 ms MarkObjects: 4.267200 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018115 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014DC8E3B1C0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014DF9063020 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014DF7481010 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2833ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (2435ms)
+			LoadAssemblies (237ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (722ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (144ms)
+			SetupLoadedEditorAssemblies (877ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (651ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.3 MB.
+System memory in use after: 214.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4864.
+Total: 15.511800 ms (FindLiveObjects: 0.814700 ms CreateObjectMapping: 8.336100 ms MarkObjects: 6.326900 ms  DeleteObjects: 0.032200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012591 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014DFC3F8040 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014E52CDEAF0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014C20E0F650 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.984 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3985ms)
+		BeginReloadAssembly (318ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (3515ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1410ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (288ms)
+			SetupLoadedEditorAssemblies (929ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (185ms)
+				ProcessInitializeOnLoadAttributes (692ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (55ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.4 MB.
+System memory in use after: 214.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4866.
+Total: 6.364000 ms (FindLiveObjects: 0.549700 ms CreateObjectMapping: 1.210500 ms MarkObjects: 4.570800 ms  DeleteObjects: 0.031500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1165.043672 seconds.
+  path: Assets/Materials/cootstexture.mat
+  artifactKey: Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/cootstexture.mat using Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f62bd1c6ed80a8936c66f6168e2fd4') in 4.353903 seconds 
+  Import took 4.418938 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022298 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014C2077B1E0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014E559938E0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014C22F89200 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.212 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4213ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (49ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (3816ms)
+			LoadAssemblies (213ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (531ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (2540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (2036ms)
+				ProcessInitializeOnLoadMethodAttributes (287ms)
+				AfterProcessingInitializeOnLoad (51ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (62ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.7 MB.
+System memory in use after: 215.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4969.
+Total: 6.213200 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.401200 ms MarkObjects: 5.322000 ms  DeleteObjects: 0.037100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008405 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000014DF7F2C160 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014E4F8711D0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000014C22F89200 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 6.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3823ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (3522ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1399ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (145ms)
+			SetupLoadedEditorAssemblies (1379ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (7ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (956ms)
+				ProcessInitializeOnLoadMethodAttributes (206ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.7 MB.
+System memory in use after: 215.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4971.
+Total: 5.864900 ms (FindLiveObjects: 0.957700 ms CreateObjectMapping: 0.489700 ms MarkObjects: 4.367100 ms  DeleteObjects: 0.048800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
