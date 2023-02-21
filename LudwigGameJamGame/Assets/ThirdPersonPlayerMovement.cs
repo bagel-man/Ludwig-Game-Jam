@@ -45,6 +45,12 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
     float targetAngle;
     public Vector3 direction;
     public bool lockCursor;
+
+     [Header("Animations")]
+     public Animator anim;
+    public string Walkbool;
+    public string Jumpbool;
+    public string Idlebool;
     private void Start()
     {
         if(lockCursor){
@@ -101,10 +107,13 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
         direction = new Vector3(horizontal, 0f, vertical).normalized;
 
         if(direction.magnitude >= 0.1f){
+            anim.SetBool(Walkbool, true);
             float cameraAngle = cam.eulerAngles.y;
             targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, cameraAngle, ref turnSmoothVelocity, turnSmoothTime);
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
+        } else {
+            anim.SetBool(Walkbool, false);
         }
         // when to jump
         if(Input.GetKey(jumpKey) && readyToJump && grounded)
