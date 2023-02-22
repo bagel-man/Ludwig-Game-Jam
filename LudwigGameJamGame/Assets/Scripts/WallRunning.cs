@@ -157,8 +157,8 @@ public class WallRunning : MonoBehaviour
     {
         if(other.gameObject.tag == "Bad")
         {
-            // vcam.Follow = NULL;
-            Invoke("End", 1f);
+            vcam.Follow = null;
+            Invoke("End", 3f);
         }
     }
     private void End()
