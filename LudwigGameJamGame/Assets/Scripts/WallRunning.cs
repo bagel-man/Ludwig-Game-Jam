@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using Cinemachine;
 
 public class WallRunning : MonoBehaviour
 {
@@ -35,6 +37,7 @@ public class WallRunning : MonoBehaviour
     public Transform orientation;
     private ThirdPersonPlayerMovement pm;
     private Rigidbody rb;
+    public CinemachineFreeLook vcam;
 
     private float timeCount = 0;
 
@@ -149,5 +152,17 @@ public class WallRunning : MonoBehaviour
     {
         pm.wallrunning = false;
         rb.useGravity = true;
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.gameObject.tag == "Bad")
+        {
+            // vcam.Follow = NULL;
+            Invoke("End", 1f);
+        }
+    }
+    private void End()
+    {
+        SceneManager.LoadScene(1);
     }
 }

@@ -22,7 +22,7 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
     public KeyCode jumpKey = KeyCode.Space;
 
     [Header("Ground Check")]
-        public Transform raycastStart;
+    public Transform raycastStart;
     public float raycastLength;
  
     public LayerMask whatIsGround;
@@ -39,7 +39,9 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
 
     Rigidbody rb;
     [Header("Camera")]
-        public Transform cam;
+
+    
+    public Transform cam;
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
     float angle;
