@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.29f1 (2ff179115da0) revision 3142009'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'en' Physical Memory: 16250 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16253 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,122 +11,174 @@ C:\Program Files\Unity\Hub\Editor\2020.3.29f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/tom/OneDrive/Documents/GitHub/Ludwig-Gam-Jam/LudwigGameJamGame
+C:/Users/carte/OneDrive/Documents/Ludwig-Game-Jam/LudwigGameJamGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59252
-Successfully changed project path to: C:/Users/tom/OneDrive/Documents/GitHub/Ludwig-Gam-Jam/LudwigGameJamGame
-C:/Users/tom/OneDrive/Documents/GitHub/Ludwig-Gam-Jam/LudwigGameJamGame
+49772
+Successfully changed project path to: C:/Users/carte/OneDrive/Documents/Ludwig-Game-Jam/LudwigGameJamGame
+C:/Users/carte/OneDrive/Documents/Ludwig-Game-Jam/LudwigGameJamGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 449.78 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 67.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.29f1 (2ff179115da0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/tom/OneDrive/Documents/GitHub/Ludwig-Gam-Jam/LudwigGameJamGame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/carte/OneDrive/Documents/Ludwig-Game-Jam/LudwigGameJamGame/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Renderer: AMD Radeon RX 6500 XT (ID=0x743f)
     Vendor:   
-    VRAM:     4019 MB
-    Driver:   30.0.15.1169
+    VRAM:     4051 MB
+    Driver:   30.0.14023.3004
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005897 seconds.
+Registered in 0.002210 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 392.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 65.87 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.095 seconds
+- Completed reload, in  0.452 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2096ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (452ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1689ms)
-			LoadAssemblies (237ms)
+		EndReloadAssembly (348ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (389ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (962ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (158ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (393ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (303ms)
-				ProcessInitializeOnLoadMethodAttributes (108ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008402 seconds.
+Registered in 0.003504 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000014DF7969820 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file data-000001D9FCCCD050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014DF36F1010 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D9FCA06220 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014DF737AC20 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001D9FDD728F0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD4DF230 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDDD9830 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD4DF230 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDD19640 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD36A010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD398220 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB878010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD51F0F0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80D6AFEE0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDD19640 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD02D700 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDD2E050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB878010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDD2E050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA97150 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE6EF420 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC68FF80 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB878010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDD2E050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE6FD430 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCEE3020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA96550 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC8181E0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCEE3020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD5BDE50 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC8407F0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 177.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.68 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.144 seconds
+- Completed reload, in  1.118 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4146ms)
-		BeginReloadAssembly (298ms)
+	ReloadAssembly (1119ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (3687ms)
-			LoadAssemblies (223ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (967ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (976ms)
+			SetupTypeCache (244ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (162ms)
-			SetupLoadedEditorAssemblies (2080ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (519ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (178ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (890ms)
-				ProcessInitializeOnLoadMethodAttributes (786ms)
-				AfterProcessingInitializeOnLoad (40ms)
-				EditorAssembliesLoaded (2ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (232ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (38ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.52 seconds
-Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4235 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 199.9 MB.
-System memory in use after: 200.2 MB.
+System memory in use after: 200.1 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4689.
-Total: 88.067800 ms (FindLiveObjects: 5.856500 ms CreateObjectMapping: 0.582000 ms MarkObjects: 81.535600 ms  DeleteObjects: 0.091800 ms)
+Total: 3.216000 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.106300 ms MarkObjects: 2.741100 ms  DeleteObjects: 0.058600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,158 +187,168 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/walking.anim
-  artifactKey: Guid(2a2c2a7008b44dc429f8f679db934b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing  using Guid(2a2c2a7008b44dc429f8f679db934b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000182 seconds  code(3) message(Unknown asset with GUID '2a2c2a7008b44dc429f8f679db934b64')
-  ERROR: Unknown asset with GUID '2a2c2a7008b44dc429f8f679db934b64'
-  Import took 0.276628 seconds .
+  path: Assets/Mesh_Cat.obj
+  artifactKey: Guid(8d080c442bfb93744b549537a5cd3c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mesh_Cat.obj using Guid(8d080c442bfb93744b549537a5cd3c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90498fcae82eaa2334fceee5495d1ac') in 0.614735 seconds 
+  Import took 0.621382 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001532 seconds.
-  path: Assets/Materials/New Material 2.mat
-  artifactKey: Guid(7aff020e345d2b942a0d07f49ba473ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material 2.mat using Guid(7aff020e345d2b942a0d07f49ba473ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf9d7fefa090276b1b56e153befa2c6') in 1.631991 seconds 
-  Import took 1.652060 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/Tex_Cat.png
+  artifactKey: Guid(b68b2d5007d04c64ebd950f5d3ec5ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tex_Cat.png using Guid(b68b2d5007d04c64ebd950f5d3ec5ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fb4e2168c32a357cb75f9090f3a162') in 0.022111 seconds 
+  Import took 0.027430 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Materials/New Material.mat
-  artifactKey: Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material.mat using Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ee4f805dc47a5095469e61cbd1152d') in 0.068543 seconds 
-  Import took 0.080576 seconds .
+  Time since last request: 0.000142 seconds.
+  path: Assets/New Physic Material.physicMaterial
+  artifactKey: Guid(97a74536f847deb4e88c68e7b62bc1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Physic Material.physicMaterial using Guid(97a74536f847deb4e88c68e7b62bc1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039e4b35ec4ab268f6873e512668f20a') in 0.007533 seconds 
+  Import took 0.012199 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.440441 seconds.
-  path: Assets/Materials/New Material 3.mat
-  artifactKey: Guid(d888c2b84ae86b34b8e630a0001f7768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/New Material 3.mat using Guid(d888c2b84ae86b34b8e630a0001f7768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5918e76dac40b339fcc09889c9246618') in 0.127623 seconds 
-  Import took 0.147581 seconds .
+  Time since last request: 0.000134 seconds.
+  path: Assets/SampleSceneAssets/TutorialInfo/Readme.asset
+  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleSceneAssets/TutorialInfo/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17459b2593d337ebab0d120e775ef02f') in 0.007005 seconds 
+  Import took 0.012182 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.705730 seconds.
-  path: Assets/Materials/cootstexture.mat
-  artifactKey: Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/cootstexture.mat using Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34edb7e4826756b49a933a4cd1421197') in 0.137018 seconds 
-  Import took 0.159423 seconds .
+  Time since last request: 0.000158 seconds.
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(6ba42068271575044aad9ef8411d08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(6ba42068271575044aad9ef8411d08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e8123a9efc8e3c14720ccddf3b7f2e') in 0.005540 seconds 
+  Import took 0.010113 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 251.007701 seconds.
-  path: Assets/cootmodelfinal.obj
-  artifactKey: Guid(14c71ddefedae2548a3ac534a58a36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/cootmodelfinal.obj using Guid(14c71ddefedae2548a3ac534a58a36ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '839a5d5f8cfead3111bd24fdc0b2ceb2') in 0.208224 seconds 
-  Import took 0.224298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 370.031155 seconds.
-  path: Assets/coot2modelfinal.obj
-  artifactKey: Guid(f2c6f06a9d9f8bc43997177766f9ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/coot2modelfinal.obj using Guid(f2c6f06a9d9f8bc43997177766f9ea1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc982ee4c31dcbd78038ccb7e3c45a7') in 0.024633 seconds 
-  Import took 0.055121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 193.144775 seconds.
+  Time since last request: 0.000134 seconds.
   path: Assets/thingcootcatthingngng.fbx
   artifactKey: Guid(3d5a8f602ac86404ca51931cf98032ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/thingcootcatthingngng.fbx using Guid(3d5a8f602ac86404ca51931cf98032ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cb7bf2c961904ed229ad77497e6fd6') in 0.463492 seconds 
-  Import took 0.492596 seconds .
+Start importing Assets/thingcootcatthingngng.fbx using Guid(3d5a8f602ac86404ca51931cf98032ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f98a5126245fd74a7788a394ceb4f9e') in 0.116943 seconds 
+  Import took 0.122054 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.326955 seconds.
-  path: Assets/walk.anim
-  artifactKey: Guid(d3f13d4bbc13ead44943f1cee9d79b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/walk.anim using Guid(d3f13d4bbc13ead44943f1cee9d79b03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65e5cb70545e0bb4c6b05326dc5d7b6') in 0.029475 seconds 
-  Import took 0.038152 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.987225 seconds.
-  path: Assets/ArmatureAction.anim
-  artifactKey: Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ArmatureAction.anim using Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc50fdf6a2e77fc67943c6729ca5775') in 0.033539 seconds 
-  Import took 0.052990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.762163 seconds.
-  path: Assets/walk.anim
-  artifactKey: Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/walk.anim using Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f230206e58ef343f762004eb5e9e2b') in 0.018555 seconds 
-  Import took 0.029676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.530956 seconds.
-  path: Assets/thingcootcatthingngng.controller
-  artifactKey: Guid(9c9acdddc58af9c4fad45efcd5baf8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/thingcootcatthingngng.controller using Guid(9c9acdddc58af9c4fad45efcd5baf8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25587ba10d30f19359d6a84319d2a767') in 0.014061 seconds 
-  Import took 0.027028 seconds .
+  Time since last request: 41.704653 seconds.
+  path: Assets/Models
+  artifactKey: Guid(29333489865d2a44a8961b4f404c6a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(29333489865d2a44a8961b4f404c6a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b107622ca5a4ad83469a3bbb4da73c') in 0.005367 seconds 
+  Import took 0.011594 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009830 seconds.
+Registered in 0.003433 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000014C254AAA40 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file data-000001D9FC702650 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014C24A85B80 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D802559C60 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014DFCCD5010 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001D800B5C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8027ECF30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD316010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB865010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCD74DF0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDD84A30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80D6B0BD0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE4A0030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD02D700 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE307020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE7FD010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D804C95320 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE5E3EB0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD4A8020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D804AFAAD0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80298D030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D800B5C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D804C95720 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDD9C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD010240 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDDC4630 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.160 seconds
+- Completed reload, in  0.979 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5162ms)
-		BeginReloadAssembly (408ms)
+	ReloadAssembly (979ms)
+		BeginReloadAssembly (138ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (74ms)
+			DisableScriptedObjects (20ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (114ms)
-		EndReloadAssembly (4606ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (796ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (3092ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (785ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (600ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (29ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3963 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 215.0 MB.
-System memory in use after: 215.3 MB.
+System memory in use after: 215.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4862.
-Total: 5.144600 ms (FindLiveObjects: 0.438300 ms CreateObjectMapping: 0.409300 ms MarkObjects: 4.267200 ms  DeleteObjects: 0.028300 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4863.
+Total: 3.172100 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.097900 ms MarkObjects: 2.787600 ms  DeleteObjects: 0.018100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -295,62 +357,252 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.297724 seconds.
+  path: Assets/other
+  artifactKey: Guid(2c6aa226751f4e246943fafe68bee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/other using Guid(2c6aa226751f4e246943fafe68bee508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40da0210f1b4c8aa61e5c942d1a72327') in 0.009291 seconds 
+  Import took 0.014241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.726309 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(59acc3e9a3912c346adb226e6fbaf839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(59acc3e9a3912c346adb226e6fbaf839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09532088e007f95a56e3e58d89f3471') in 0.005078 seconds 
+  Import took 0.010469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.001015 seconds.
+  path: Assets/WallRunning.cs
+  artifactKey: Guid(53c3112dcc098f74b8e52a80b9b28a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WallRunning.cs using Guid(53c3112dcc098f74b8e52a80b9b28a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac843e4a18e23fc2ffba387c5a65d67') in 0.012676 seconds 
+  Import took 0.017742 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003353 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A7820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8005F1020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D805326030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8016EC020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80048F020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB865010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCD74DF0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80190F010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80D6AE950 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80298D030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD02D700 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDD81830 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB877F20 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCDDB060 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCE6C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCD74DF0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE9CA030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8005F1020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCDDB060 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC8181E0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD0115C0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Domain Reload Profiling:
+	ReloadAssembly (925ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (782ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.3 MB.
+System memory in use after: 214.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4865.
+Total: 3.321000 ms (FindLiveObjects: 0.278600 ms CreateObjectMapping: 0.144000 ms MarkObjects: 2.879400 ms  DeleteObjects: 0.017900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.018115 seconds.
+Registered in 0.003359 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000014DC8E3B1C0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014DF9063020 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D9FDD84A30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014DF7481010 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001D804891020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8027ECF30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC89E010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB865010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801D78020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80190F010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80D6B0330 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE9CA030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD02D700 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE307020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8033B9CC0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCE6C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801D78020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE9CA030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D804891020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8033BACC0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC8181E0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEA86010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD00FD60 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.833 seconds
+- Completed reload, in  0.934 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2833ms)
-		BeginReloadAssembly (264ms)
+	ReloadAssembly (934ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (2435ms)
-			LoadAssemblies (237ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (722ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (144ms)
-			SetupLoadedEditorAssemblies (877ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (291ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (160ms)
-				ProcessInitializeOnLoadAttributes (651ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (18ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (39ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 214.3 MB.
 System memory in use after: 214.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4864.
-Total: 15.511800 ms (FindLiveObjects: 0.814700 ms CreateObjectMapping: 8.336100 ms MarkObjects: 6.326900 ms  DeleteObjects: 0.032200 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4867.
+Total: 3.463600 ms (FindLiveObjects: 0.257400 ms CreateObjectMapping: 0.115400 ms MarkObjects: 3.066900 ms  DeleteObjects: 0.023100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -359,134 +611,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012591 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-0000014DFC3F8040 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E52CDEAF0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014C20E0F650 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.984 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3985ms)
-		BeginReloadAssembly (318ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (100ms)
-		EndReloadAssembly (3515ms)
-			LoadAssemblies (234ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1410ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (288ms)
-			SetupLoadedEditorAssemblies (929ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (185ms)
-				ProcessInitializeOnLoadAttributes (692ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (55ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.4 MB.
-System memory in use after: 214.6 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4866.
-Total: 6.364000 ms (FindLiveObjects: 0.549700 ms CreateObjectMapping: 1.210500 ms MarkObjects: 4.570800 ms  DeleteObjects: 0.031500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1165.043672 seconds.
-  path: Assets/Materials/cootstexture.mat
-  artifactKey: Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/cootstexture.mat using Guid(eb7647994dcbd94458e6dd62a6b76504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f62bd1c6ed80a8936c66f6168e2fd4') in 4.353903 seconds 
-  Import took 4.418938 seconds .
+  Time since last request: 18.284175 seconds.
+  path: Assets/ThirdPersonCam.cs
+  artifactKey: Guid(200398868a4c66e4a9cc464308a51d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonCam.cs using Guid(200398868a4c66e4a9cc464308a51d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a53f0c1b640f3b4319087470f69643') in 0.009341 seconds 
+  Import took 0.014802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326685 seconds.
+  path: Assets/ThirdPersonPlayerMovement.cs
+  artifactKey: Guid(3d0f71dec319a114f9290f6e948a7274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPersonPlayerMovement.cs using Guid(3d0f71dec319a114f9290f6e948a7274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef7e0938e1ac8fefaa5364bb6c37ece') in 0.005145 seconds 
+  Import took 0.010596 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.022298 seconds.
+Registered in 0.003336 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000014C2077B1E0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E559938E0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D9FEC34BE0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014C22F89200 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001D804891020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8027ECF30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80054D010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE2A3E40 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80235E030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB865010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80524A010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D802709070 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80D6B0BD0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEC19020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD02D700 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCCCD050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDE30B70 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCE6C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80524A010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEC19020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D804891020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FDE30570 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE07F020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80054D010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD0110E0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.212 seconds
+- Completed reload, in  0.964 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4213ms)
-		BeginReloadAssembly (283ms)
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (49ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (80ms)
-		EndReloadAssembly (3816ms)
-			LoadAssemblies (213ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (531ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (130ms)
-			SetupLoadedEditorAssemblies (2540ms)
+			SetupTypeCache (234ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (305ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (155ms)
-				ProcessInitializeOnLoadAttributes (2036ms)
-				ProcessInitializeOnLoadMethodAttributes (287ms)
-				AfterProcessingInitializeOnLoad (51ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (62ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.7 MB.
-System memory in use after: 215.0 MB.
+System memory in use before: 214.3 MB.
+System memory in use after: 214.6 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4969.
-Total: 6.213200 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.401200 ms MarkObjects: 5.322000 ms  DeleteObjects: 0.037100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4869.
+Total: 3.258400 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.099100 ms MarkObjects: 2.852200 ms  DeleteObjects: 0.019400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -495,62 +742,367 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.308905 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(a345e8ac1ba8c7648b25a29fbeee8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(a345e8ac1ba8c7648b25a29fbeee8875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12414c5ee78635f466d8e9b8591dd026') in 0.009352 seconds 
+  Import took 0.014691 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003336 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEC34BE0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D802716020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE9DE050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FBB817D0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FBB817D0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D800E6E030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D802478C50 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCCCD050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD4CD070 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80D6B0330 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE1AF030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DA4D99F010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCCCD050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8100BB040 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCE6C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEC19020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D802716020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8100BB840 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE07F020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FBB817D0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD011350 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (921ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (780ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (212ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.4 MB.
+System memory in use after: 214.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4871.
+Total: 3.266400 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.115300 ms MarkObjects: 2.846300 ms  DeleteObjects: 0.021400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4.003230 seconds.
+  path: Assets/thingcootcatthingngng.controller
+  artifactKey: Guid(9c9acdddc58af9c4fad45efcd5baf8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/thingcootcatthingngng.controller using Guid(9c9acdddc58af9c4fad45efcd5baf8ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0600a1b1dc02c616549389191eecbdea') in 0.029459 seconds 
+  Import took 0.035093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.468390 seconds.
+  path: Assets/walk.anim
+  artifactKey: Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/walk.anim using Guid(e058c5dc2c7dac94eb50ccc381ffe188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f729f762c7d2d24abb8f8a85d781f003') in 0.010330 seconds 
+  Import took 0.015731 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003413 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEC34BE0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D804891020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD3A3820 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FBB8AC30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE2A3E40 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE2A3E40 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8004C3050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD4B8030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCCCD050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8033ED180 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80D6B0330 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE1AF030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DA4D99F010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8049CAC20 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCCCD050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D800B7E060 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCE6C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE4A0030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D804891020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D800B7E060 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB877F20 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8003C4010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD0115C0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.916 seconds
+Domain Reload Profiling:
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (230ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (288ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.4 MB.
+System memory in use after: 214.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4873.
+Total: 3.236300 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.115400 ms MarkObjects: 2.844400 ms  DeleteObjects: 0.021100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008405 seconds.
+Registered in 0.003430 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000014DF7F2C160 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014E4F8711D0 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001D9FEC34BE0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000014C22F89200 doesn't match image C:\Users\tom\OneDrive\Documents\GitHub\Ludwig-Gam-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001D9FB9A2020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DA4D9E1020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE9DE050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8046969E0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE2A3E40 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8004C3050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D802478C50 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCCCD050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD160080 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D80D6B0330 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FE1AF030 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FBA555C0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001DA4D9E1020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCCCD050 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8100B59B0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCE6C020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FC702020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8000E8C30 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FEC19020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FB9A2020 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8100B4FB0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FCD74DF0 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D8003C4010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D9FD010C00 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001D801E96010 doesn't match image C:\Users\carte\OneDrive\Documents\Ludwig-Game-Jam\LudwigGameJamGame\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 6.85 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.822 seconds
+- Completed reload, in  0.916 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3823ms)
-		BeginReloadAssembly (216ms)
+	ReloadAssembly (916ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (74ms)
-		EndReloadAssembly (3522ms)
-			LoadAssemblies (164ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (778ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1399ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (145ms)
-			SetupLoadedEditorAssemblies (1379ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (7ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (956ms)
-				ProcessInitializeOnLoadMethodAttributes (206ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3950 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.7 MB.
-System memory in use after: 215.0 MB.
+System memory in use before: 214.4 MB.
+System memory in use after: 214.7 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4971.
-Total: 5.864900 ms (FindLiveObjects: 0.957700 ms CreateObjectMapping: 0.489700 ms MarkObjects: 4.367100 ms  DeleteObjects: 0.048800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4875.
+Total: 3.379500 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.964700 ms  DeleteObjects: 0.022300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -559,7 +1111,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

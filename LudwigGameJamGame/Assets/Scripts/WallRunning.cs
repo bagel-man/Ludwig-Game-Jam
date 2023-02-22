@@ -36,6 +36,8 @@ public class WallRunning : MonoBehaviour
     private ThirdPersonPlayerMovement pm;
     private Rigidbody rb;
 
+    private float timeCount = 0;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -78,14 +80,18 @@ public class WallRunning : MonoBehaviour
         if((wallLeft || wallRight) && verticalInput > 0 && AboveGround())
         {
             if (!pm.wallrunning)
+            {
                 StartWallRun();
+            }  
         }
 
         // State 3 - None
         else
         {
             if (pm.wallrunning)
+            {
                 StopWallRun();
+            }
         }
     }
 
@@ -102,6 +108,7 @@ public class WallRunning : MonoBehaviour
         Vector3 wallNormal = wallRight ? rightWallhit.normal : leftWallhit.normal;
 
         Vector3 wallForward = Vector3.Cross(wallNormal, transform.up);
+
 
         if ((orientation.forward - wallForward).magnitude > (orientation.forward - -wallForward).magnitude)
             wallForward = -wallForward;

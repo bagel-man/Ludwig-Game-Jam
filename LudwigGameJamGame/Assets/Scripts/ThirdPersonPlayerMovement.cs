@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class ThirdPersonPlayerMovement : MonoBehaviour
@@ -33,7 +34,7 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
     float vertical;
 
     Vector3 verticalMoveDirection;
-        Vector3 horizontalMoveDirection;
+    Vector3 horizontalMoveDirection;
 
 
     Rigidbody rb;
@@ -51,6 +52,13 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
     public string Walkbool;
     public string Jumpbool;
     public string Idlebool;
+
+    [Header("Sprint")]
+    public Slider slider;
+    public float sprintDuration = 100;
+
+    private float sprint;
+
     private void Start()
     {
         if(lockCursor){
@@ -61,6 +69,9 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
         rb.freezeRotation = true;
 
         readyToJump = true;
+
+        slider.maxValue = sprintDuration;
+        sprint = sprintDuration;
     }
 
     private void Update()
@@ -81,6 +92,22 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         MovePlayer();
+        if(Input.GetButton("Boost") && sprint > 0)
+        {
+            moveSpeed = 20;
+            sprint -= 0.33f;
+            slider.value = sprint;
+        }
+        else
+        {
+            moveSpeed = 7;
+            if(sprint < sprintDuration)
+            {
+                sprint += 0.5f;
+            slider.value = sprint;
+            }
+            
+        }
     }
 
     private void CheckGround()
@@ -111,7 +138,7 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
             float cameraAngle = cam.eulerAngles.y;
             targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
             angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, cameraAngle, ref turnSmoothVelocity, turnSmoothTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            transform.rotation = Quaternion.Euler(0f, angle, gameObject.transform.rotation.z);
         } else {
             anim.SetBool(Walkbool, false);
         }
