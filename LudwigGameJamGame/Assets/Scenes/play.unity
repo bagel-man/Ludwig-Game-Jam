@@ -1086,7 +1086,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1151651333}
-  m_LocalRotation: {x: 0.15986446, y: -0.0005251076, z: 0.0000850402, w: 0.98713887}
+  m_LocalRotation: {x: 0.15986446, y: -0.0005251076, z: 0.000085040214, w: 0.98713887}
   m_LocalPosition: {x: 68.33, y: -43.31, z: -102.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -17775,11 +17775,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7775215850781459302, guid: b95914075a17005478059ab733f88608, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -5.954204e-38
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7775215850781459302, guid: b95914075a17005478059ab733f88608, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 2.7662663e-38
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7775215851152526488, guid: b95914075a17005478059ab733f88608, type: 3}
       propertyPath: m_LocalRotation.w
@@ -17791,11 +17791,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7775215851152526488, guid: b95914075a17005478059ab733f88608, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000018903858
+      value: -0.000000018905252
       objectReference: {fileID: 0}
     - target: {fileID: 7775215851152526488, guid: b95914075a17005478059ab733f88608, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000003558619
+      value: 0.0000000035588814
       objectReference: {fileID: 0}
     - target: {fileID: 7775215852486731006, guid: b95914075a17005478059ab733f88608, type: 3}
       propertyPath: m_LocalRotation.w
@@ -18140,6 +18140,10 @@ PrefabInstance:
       propertyPath: slider
       value: 
       objectReference: {fileID: 1529051170}
+    - target: {fileID: 2622177225026297284, guid: 71acf6fce0d4a8441bf86ad63a63d1f2, type: 3}
+      propertyPath: Jumpbool
+      value: jump
+      objectReference: {fileID: 0}
     - target: {fileID: 2622177225026297287, guid: 71acf6fce0d4a8441bf86ad63a63d1f2, type: 3}
       propertyPath: vcam
       value: 

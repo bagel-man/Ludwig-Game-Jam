@@ -87,7 +87,7 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
         }
         else
         {
-            moveSpeed = 7;
+            moveSpeed = 4;
             if(sprint < sprintDuration)
             {
                 sprint += 0.5f;
@@ -117,9 +117,12 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
         {
             Debug.DrawRay(raycastStart.position, direction * raycastLength, Color.red);
             grounded = true;
+            anim.SetBool(Jumpbool, false);
+
         }
         else
         {
+                 anim.SetBool(Jumpbool, true);
             grounded = false;
         }
     }
