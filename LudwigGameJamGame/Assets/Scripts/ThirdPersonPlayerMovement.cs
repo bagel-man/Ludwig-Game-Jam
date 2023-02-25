@@ -55,11 +55,7 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
     public string Jumpbool;
     public string Idlebool;
 
-    [Header("Sprint")]
-    public Slider slider;
-    public float sprintDuration = 100;
 
-    private float sprint;
 
     private void Start()
     {
@@ -72,29 +68,13 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
 
         readyToJump = true;
 
-        slider.maxValue = sprintDuration;
-        sprint = sprintDuration;
+ 
     }
 
     private void FixedUpdate()
     {
         MovePlayer();
-        if(Input.GetButton("Boost") && sprint > 0)
-        {
-            moveSpeed = 20;
-            sprint -= 0.33f;
-            slider.value = sprint;
-        }
-        else
-        {
-            moveSpeed = 4;
-            if(sprint < sprintDuration)
-            {
-                sprint += 0.5f;
-            slider.value = sprint;
-            }
-            
-        }
+ 
         // ground check
         CheckGround();
 

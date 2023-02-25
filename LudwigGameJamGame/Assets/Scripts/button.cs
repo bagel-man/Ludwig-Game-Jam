@@ -8,7 +8,7 @@ public class button : MonoBehaviour
     private bool canpress = false;
     public GameObject[] setactive;
         public GameObject[] setfalse;
-    public Animator anim;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +21,7 @@ public class button : MonoBehaviour
     {
         if(canpress){
             if(Input.GetKeyDown(KeyCode.E)){
-                       anim.Play("press");
+
                 for(int i = 0; i < setactive.Length; i++){
                                  setactive[i].SetActive(true);
                 }
