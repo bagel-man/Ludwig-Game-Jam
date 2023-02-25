@@ -76,21 +76,6 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
         sprint = sprintDuration;
     }
 
-    private void Update()
-    {
-        // ground check
-        CheckGround();
-
-        MyInput();
-        SpeedControl();
-
-        // handle drag
-        if (grounded)
-            rb.drag = groundDrag;
-        else
-            rb.drag = 0;
-    }
-
     private void FixedUpdate()
     {
         MovePlayer();
@@ -102,7 +87,7 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
         }
         else
         {
-            moveSpeed = 2;
+            moveSpeed = 7;
             if(sprint < sprintDuration)
             {
                 sprint += 0.5f;
@@ -110,6 +95,17 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
             }
             
         }
+        // ground check
+        CheckGround();
+
+        MyInput();
+        SpeedControl();
+
+        // handle drag
+        if (grounded)
+            rb.drag = groundDrag;
+        else
+            rb.drag = 0;
     }
 
     private void CheckGround()
