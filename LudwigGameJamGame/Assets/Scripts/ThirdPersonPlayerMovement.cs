@@ -102,7 +102,7 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
         }
         else
         {
-            moveSpeed = 7;
+            moveSpeed = 2;
             if(sprint < sprintDuration)
             {
                 sprint += 0.5f;
