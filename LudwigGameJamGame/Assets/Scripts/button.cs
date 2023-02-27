@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class button : MonoBehaviour
 {
+    public AudioSource SFX;
+
     public GameObject UIprompt;
     private bool canpress = false;
     public GameObject[] setactive;
@@ -21,6 +23,7 @@ public class button : MonoBehaviour
     {
         if(canpress){
             if(Input.GetKeyDown(KeyCode.E)){
+                SFX.Play();
 
                 for(int i = 0; i < setactive.Length; i++){
                                  setactive[i].SetActive(true);
