@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class ThirdPersonPlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
@@ -173,5 +173,11 @@ public class ThirdPersonPlayerMovement : MonoBehaviour
     private void ResetJump()
     {
         readyToJump = true;
+    }
+        private void OnTriggerEnter(Collider other)
+    {
+       if(other.gameObject.tag == "Bad"){
+          SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+       }
     }
 }

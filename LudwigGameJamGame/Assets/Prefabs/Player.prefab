@@ -522,7 +522,6 @@ GameObject:
   - component: {fileID: 2622177225026297283}
   - component: {fileID: 2622177225026297281}
   - component: {fileID: 2622177225026297286}
-  - component: {fileID: 2622177225026297287}
   - component: {fileID: 2622177225026297284}
   m_Layer: 0
   m_Name: Player
@@ -538,9 +537,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2622177225026297282}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.30999994, y: 3.397, z: -1.28}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3475952, y: 0.3475952, z: 0.3475952}
   m_Children:
   - {fileID: 2622177225306911101}
   - {fileID: 2622177226432549529}
@@ -563,7 +562,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!136 &2622177225026297286
 CapsuleCollider:
@@ -576,39 +575,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.6167035
-  m_Height: 4.1503687
+  m_Height: 3.6071115
   m_Direction: 2
-  m_Center: {x: -0.0059804916, y: -1.4505327, z: -0.11528826}
---- !u!114 &2622177225026297287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2622177225026297282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53c3112dcc098f74b8e52a80b9b28a46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whatIsWall:
-    serializedVersion: 2
-    m_Bits: 64
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 8
-  wallRunForce: 200
-  wallClimbSpeed: 1
-  maxWallRunTime: 1
-  horizontalJumpForce: 50
-  verticalJumpForce: 6
-  jumpKey: 32
-  upwardsRunKey: 304
-  downwardsRunKey: 306
-  wallCheckDistance: 1
-  minJumpHeight: 2
-  orientation: {fileID: 2622177225082011515}
-  vcam: {fileID: 0}
+  m_Center: {x: -0.0059804805, y: -1.4505326, z: 0.07058823}
 --- !u!114 &2622177225026297284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -621,10 +590,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d0f71dec319a114f9290f6e948a7274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 4
   wallrunning: 0
   groundDrag: 4
-  jumpForce: 12
+  jumpForce: 11
   jumpCooldown: 0.25
   airMultiplier: 0.2
   walkSpeed: 0
@@ -643,10 +612,8 @@ MonoBehaviour:
   lockCursor: 1
   anim: {fileID: 1323812454088451900}
   Walkbool: walk
-  Jumpbool: 
+  Jumpbool: jump
   Idlebool: 
-  slider: {fileID: 0}
-  sprintDuration: 100
 --- !u!1 &2622177225082011514
 GameObject:
   m_ObjectHideFlags: 0
@@ -731,7 +698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2622177226432549528}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.64, z: 9.43}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2622177225026297283}
